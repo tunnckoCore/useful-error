@@ -1,0 +1,46 @@
+{
+  "name": "useful-error",
+  "version": "0.0.0",
+  "description": "Enhanced Error class for creating meaningful and customizable error classes. Adds option to remove stacktrace and format the toString method.",
+  "repository": "tunnckoCore/useful-error",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "precommit.silent": true,
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "pretest": "standard",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "delegate-properties": "^0.3.0",
+    "error-base": "^0.2.0",
+    "error-format": "^1.0.0",
+    "extend-shallow": "^2.0.1",
+    "lazy-cache": "^1.0.3"
+  },
+  "devDependencies": {
+    "assertit": "^0.1.0",
+    "pre-commit": "*"
+  },
+  "files": [
+    "index.js",
+    "utils.js"
+  ],
+  "keywords": [
+    "useful-error"
+  ],
+  "verb": {
+    "toc": false,
+    "tasks": [
+      "readme"
+    ],
+    "related": {
+      "list": [
+        "error-base",
+        "error-format",
+        "kind-error",
+        "stacktrace-metadata"
+      ]
+    }
+  }
+}
